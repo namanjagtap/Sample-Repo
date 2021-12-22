@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+}
+#root{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    float: left;
+    justify-content: center;
+}
+.naman{
+    display: flex;
+    float:left;
+    width : auto;
+    position:relative;
+}
+.raju{
+    background-color: gray;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 25px;
+    width: 400px;
+    height: 450px;
+}
+div > h3{
+    overflow-x: auto;
+}
+div > p{
+    font-size: 15px;
+}
+#one{
+    width: 360px;
+    height: 230px;
+    transition: all .4s;
+    box-shadow: 0 0 10px rgba(197, 21, 21, 0.212);
+}
+#one:hover{
+    margin-top: -19px;;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+    color: rgb(75, 80, 80);
+}
